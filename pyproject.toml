@@ -1,0 +1,18 @@
+[tool.poetry]
+name          = "project cultivate"
+version       = "0.1.0"
+description   = "An exploration of the distribution of plant species across U.S. states using data science techniques to explore and visualize a dataset supplied by UC Irvine."
+authors       = ["James Parkington <pongs.acreage.0o@icloud.com>"]
+readme        = "README.md"
+
+[tool.poetry.dependencies]
+python        = "^3.11"
+pandas        = "^2.0.3"
+numpy         = "^1.25.1"
+matplotlib    = "^3.7.2"
+seaborn       = "^0.12.2"
+scipy         = "*"
+
+[build-system]
+requires      = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
