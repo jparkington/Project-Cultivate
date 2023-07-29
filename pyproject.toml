@@ -1,7 +1,7 @@
 [tool.poetry]
-name          = "project cultivate"
+name          = "project derailleur"
 version       = "0.1.0"
-description   = "An exploration of the distribution of plant species across U.S. states using data science techniques to explore and visualize a dataset supplied by UC Irvine."
+description   = "Shifts gears through various data science techniques to analyze and visualize bike sharing trends, using the UCI Bike Sharing Dataset."
 authors       = ["James Parkington <pongs.acreage.0o@icloud.com>"]
 readme        = "README.md"
 
