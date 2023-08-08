@@ -6,15 +6,16 @@ authors       = ["James Parkington <pongs.acreage.0o@icloud.com>"]
 readme        = "README.md"
 
 [tool.poetry.dependencies]
-python        = "^3.11"
-pandas        = "^2.0.3"
-numpy         = "^1.25.1"
-matplotlib    = "^3.7.2"
-seaborn       = "^0.12.2"
-adjusttext = "^0.8"
+python        = ">=3.11,<3.13"
+pandas        = "2.0.3"
+numpy         = "1.25.1"
+matplotlib    = "3.7.2"
+seaborn       = "0.12.2"
+adjusttext    = "0.8"
+scipy         = "^1.11.1"
 
 [tool.poetry.group.dev.dependencies]
-ipykernel = "^6.25.0"
+ipykernel     = "6.25.0"
 
 [build-system]
 requires      = ["poetry-core"]
